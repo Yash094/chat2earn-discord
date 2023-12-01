@@ -43,7 +43,7 @@ export default async function server(
     if (balance >= 4) {
       discount = 0.01;
     } else {
-      discount = balance * 0.25 * 0.01;
+      discount = balance * 0.5 * 0.01;
     }
     // Generate the signature for the page NFT
     const signedPayload = await nftCollection.signature.generate({

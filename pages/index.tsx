@@ -122,11 +122,11 @@ const Home: NextPage = () => {
                         {data && data.toString() >= 4 ? (
                           <>0</>
                         ) : (
-                          0.01 - data.toString() * 0.25 * 0.01
+                          0.01 - data.toString() * 0.5 * 0.01
                         )}
                         <Text fontSize="sm">
                           You have received{" "}
-                          {data && (data.toString() * 25).toFixed(2)}% discount
+                          {data && (data.toString() * 0.5).toFixed(2)}% discount
                           for your contributions in our discord server
                         </Text>
                       </>
