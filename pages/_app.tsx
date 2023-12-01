@@ -1,4 +1,4 @@
-import { ThirdwebProvider, paperWallet } from "@thirdweb-dev/react";
+import { ThirdwebProvider, paperWallet, metamaskWallet, } from "@thirdweb-dev/react";
 import { Mumbai } from "@thirdweb-dev/chains";
 import type { AppProps } from "next/app";
 import Head from "next/head";
@@ -17,6 +17,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           paperWallet({
             paperClientId: process.env.NEXT_PUBLIC_PAPER_CLIENT_ID,
           }),
+          metamaskWallet(),
         ]}
       >
         <Head>

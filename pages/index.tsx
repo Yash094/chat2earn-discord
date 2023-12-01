@@ -134,8 +134,7 @@ const Home: NextPage = () => {
                       <>
                         0.01
                         <Text fontSize="sm">
-                          Connect with email which is tied to your discord to
-                          recieve discounts!
+                          Connect with the wallet or email, you have claimed your nft rewards on discord!
                         </Text>
                         {address && (
                           <Text fontSize="sm">
