@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  background-color: #000!important;
+  line-height: 1.5;
+  --hello: -100%;
+  padding-bottom: 250px;
+}
